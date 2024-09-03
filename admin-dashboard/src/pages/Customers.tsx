@@ -1,5 +1,6 @@
+import React from "react"
 
-const Customers = () => {
+const Customers:React.FC = () => {
   return (
     <div>Customers</div>
   )

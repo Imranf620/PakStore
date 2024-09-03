@@ -10,3 +10,24 @@
   box-sizing: border-box;
 }
 
+
+/* Custom scrollbar styles for Tailwind */
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounding the scrollbar track */
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounding the scrollbar thumb */
+  border: 2px solid #f1f1f1; /* Border to add some spacing */
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #a0aec0; /* Darker color on hover */
+}
+

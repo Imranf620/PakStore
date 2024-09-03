@@ -1,5 +1,6 @@
+import React from "react"
 
-const Transactions = () => {
+const Transactions:React.FC = () => {
   return (
     <div>Transactions</div>
   )

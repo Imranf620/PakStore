@@ -1,7 +1,8 @@
+import React from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 
-const AdminLayout = () => {
+const AdminLayout:React.FC = () => {
   return (
     <div className="flex bg-[#F7F7F7]">
       <div className="w-[20%]">
