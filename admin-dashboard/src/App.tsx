@@ -8,12 +8,12 @@ const AdminLayout = lazy(() => import("./pages/AdminLayout"));
 const Customers = lazy(() => import("./pages/Customers"));
 const Transactions = lazy(() => import("./pages/Transactions"));
 const Products = lazy(() => import("./pages/Products"));
-const BarChart = lazy(() => import("./pages/BarChart.jsx"));
-const PieChart = lazy(() => import("./pages/PieChart.jsx"));
-const LineChart = lazy(() => import("./pages/LineChart.jsx"));
-const StopWatch = lazy(() => import("./pages/StopWatch.jsx"));
-const Coupon = lazy(() => import("./pages/Coupon.jsx"));
-const Toss = lazy(() => import("./pages/Toss.jsx"));
+const BarChart = lazy(() => import("./pages/BarChart"));
+const PieChart = lazy(() => import("./pages/PieChart"));
+const LineChart = lazy(() => import("./pages/LineChart"));
+const StopWatch = lazy(() => import("./pages/StopWatch"));
+const Coupon = lazy(() => import("./pages/Coupon"));
+const Toss = lazy(() => import("./pages/Toss"));
 
 
 const App:React.FC =()=> {
